@@ -16,3 +16,8 @@ $ file Xcode_11.4/*
   Xcode_11.4/xpi_toc.xml: XML 1.0 document
 ```
 
+# File format
+
+`XIP` format is a `XAR` with a signature system described inside the `XML` file:
+
+![xar_format](xar_format.svg)
