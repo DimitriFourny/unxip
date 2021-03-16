@@ -70,7 +70,7 @@ std::string CreateXipDirectory(const char* xip_path) {
   }
   dirpath += "/";
 
-  mkdir(dirpath.c_str(), 770);
+  mkdir(dirpath.c_str(), 0770);
   return dirpath;
 }
 
